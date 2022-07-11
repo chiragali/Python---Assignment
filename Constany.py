@@ -1,0 +1,5 @@
+COUNTRY = "India"
+ROLE = "Wicket-keeper"
+MAX_FOREIGN_PLAYER = 4
+MIN_WK_PLAYER = 1
+TEAM_INPUT = 'TeamRCB.json'

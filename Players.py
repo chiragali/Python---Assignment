@@ -1,4 +1,5 @@
 import json
+from UpMan import Constany as Cons
 
 
 class Players:
@@ -18,7 +19,7 @@ class Players:
         return wk_players
 
     def getAllPlayers(self):
-        with open('TeamRCB.json') as f:
+        with open(Cons.TEAM_INPUT) as f:
             data = json.load(f)
         players = data.get("player")
         return players
